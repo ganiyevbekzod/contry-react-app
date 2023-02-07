@@ -1,0 +1,41 @@
+:root {
+  --bg-header: #fff;
+  --color-links: var(--color-links);
+}
+
+.dark {
+  --bg-header: #2b3844;
+  --color-links: #fff;
+}
+
+.card {
+  display: inline-block;
+  margin-bottom: 75px;
+  background-color: var(--bg-header) !important;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+  border-radius: 5px;
+}
+
+.card-body {
+  margin-bottom: 46px;
+  margin-left: 24px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--color-links);
+}
+
+.card-desc {
+  margin-bottom: 8px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--color-links);
+}
+
+.card-desc-style {
+  font-weight: 600;
+}
